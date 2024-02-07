@@ -29,13 +29,37 @@
 }
 .biomedicalbg{
   background-color: #E0FFE7;
+
 }
+
+
 .biomedical {
   background-image: url(https://preethihospitals.com/wp-content/uploads/2022/11/Downloader.la-6372235c07208.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 40vh;
-  opacity: 0.95;
-  filter: brightness(0%) contrast(0%) saturate(0%) blur(0px) hue-rotate(322deg);
+  /* opacity: 0.95;
+  filter: brightness(0%) contrast(0%) saturate(0%) blur(0px) hue-rotate(322deg); */
 }
+.Doctor{
+  background-image: url(./images/puls.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+} 
+.docdiv{
+  background-color: rgba(0, 0, 0, 0.276);
+  height: 60vh;
+  
+}
+.docbutton{
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+/* .docpara{
+  margin-top: 20px !important;
+} */

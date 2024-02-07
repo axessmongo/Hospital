@@ -115,10 +115,9 @@ function Excellence() {
         </div>
       </section>
       {/* Biomedical */}
-      <section className="bg-white mt-5">
+      <section className=" mt-5">
         <div className="container">
-            <div >
-          <div className="row justify-content-center p-5">
+          <div className="row justify-content-center  p-5">
             <div className="col-md-10">
               <div className="row biomedicalbg rounded-4">
                 <div className="col-md-8 ">
@@ -131,11 +130,23 @@ function Excellence() {
                   </p>
                 </div>
                 <div className="col-md-4">
-                    <div className="biomedical w-75"></div>
+                  <div className="biomedical w-75"></div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      {/* Need a Doctor  */}
+      <section className="Doctor">
+        <div className="text-center text-light docdiv ">
+          <div className="docpara">
+            <p className="fs-3">Need a Doctor for Check-up?</p>
+            <h1>Just Make An Appointment & You're Done!</h1>
+            <button className="docbutton">Book An Appointment</button>
+            <p className="text-center text-light mt-5 pt-2">
+             <span className="text-danger"> © Copyright 2023.</span> YYYY Hospitals Group. All Rights Reserved,
+            </p>
           </div>
         </div>
       </section>
