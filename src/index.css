@@ -1,0 +1,41 @@
+.crd-bg {
+  background: transparent linear-gradient(90deg, #fec5c5 0%, #efb1b1 100%) 0% 0%
+    no-repeat padding-box;
+}
+.ortho-bg {
+  background: rgb(2, 0, 36);
+  background: transparent linear-gradient(90deg, #ffeec7 0%, #ffde90 100%) 0% 0%
+    no-repeat padding-box;
+}
+.onco-bg {
+  background: rgb(2, 0, 36);
+  background: transparent linear-gradient(90deg, #d1f8ec 0%, #19bc5eb5 100%) 0%
+    0% no-repeat padding-box;
+}
+.neuro-bg {
+  background: rgb(2, 0, 36);
+  background: transparent linear-gradient(90deg, #e7cbff 0%, #cfa7f2 100%) 0% 0%
+    no-repeat padding-box;
+}
+.gastro-bg {
+  background: rgb(2, 0, 36);
+  background: transparent linear-gradient(90deg, #bef1fe 0%, #6ddbf8 100%) 0% 0%
+    no-repeat padding-box;
+}
+.urology-bg {
+  background: rgb(2, 0, 36);
+  background: transparent linear-gradient(90deg, #dbeefe 0%, #cdddf5 100%) 0% 0%
+    no-repeat padding-box;
+}
+.biomedicalbg{
+  background-color: #E0FFE7;
+}
+.biomedical {
+  background-image: url(https://preethihospitals.com/wp-content/uploads/2022/11/Downloader.la-6372235c07208.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40vh;
+  opacity: 0.95;
+  filter: brightness(0%) contrast(0%) saturate(0%) blur(0px) hue-rotate(322deg);
+}
