@@ -36,6 +36,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   height: 40vh;
-  opacity: 0.95;
-  filter: brightness(0%) contrast(0%) saturate(0%) blur(0px) hue-rotate(322deg);
+  /* opacity: 0.95;
+  filter: brightness(0%) contrast(0%) saturate(0%) blur(0px) hue-rotate(322deg); */
 }

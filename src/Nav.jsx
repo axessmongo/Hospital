@@ -54,17 +54,31 @@ export default function Nav() {
             {/* Nav-End */}
 
             {/* Banner-Start */}
+            {/* <h3 className='text-center mb-3 heading7 fs-2 ' style={{ color: "#fd562a" }}>Axess Hospital</h3> */}
+
             <section className='container-fluid'>
                 <div className='text-center py-4 my-4'>
+                    <div className='row'>
+                        <div className="col-md-7">
+                            <h2 class="sub-title pt-sm-0 pt-3 mb-4 heading7 ">The Axess World of Care</h2>
+                            <h4 className='hero-title heading7 mb-4'>Consult Our Trusted Surgeons,Book an Appointment,
 
-                    <h3 className='text-center mb-3 heading7 fs-2 ' style={{ color: "#fd562a" }}>Axess Hospital</h3>
+                                <p>10 Years of Advanced HealthCare</p></h4>
+                            <h2 class="tagline_ heading7 fs-5" id="formmain "> The best of modern healthcare to ensure you stay healthy, always.</h2>
+                            <div class="py-4 my-4">
+                                <button class="banner-bts fw-bold fs-5 heading5" target="_blank">Contact Us</button>
+                            </div>
+                        </div>
+                        <div className="col-md-5">
+                            <img
+                                src="https://cdn.apollohospitals.com/campaign/chennai/images/hero-right.webp"
+                                // style={{backgroundColor:"red"}}
+                                className="align-items-center img-fluid"
+                                alt=""
+                            />
+                        </div>
 
-                    <img
-                        src="https://img.freepik.com/free-psd/entrance-emergency-room-hospital-generative-ai_587448-2057.jpg?size=626&ext=jpg&uid=R124346864&ga=GA1.1.705659462.1705845875&semt=sph"
-                        // style={{backgroundColor:"red"}}
-                        className="align-items-center img-fluid"
-                        alt=""
-                    />
+                    </div>
 
                 </div>
             </section>
@@ -76,79 +90,105 @@ export default function Nav() {
                         </div>
                     </div>
                     <div className="col-md-7    ">
-                        <h1 className='heading7 text-center mb-3 p-2 fs-3 ' style={{ color: "#fd562a" }}> The Best Multi-speciality Hospital in Chennai</h1>
+                        <h1 className='heading7 text-center mb-3 p-2 fs-3 ' style={{ color: "#F1A902" }}> The Best Multi-speciality Hospital in Chennai</h1>
                         <p className='heading6'>Axess Technology in Madurai is one of the most prominent hospitals in Madurai for its innovative treatments and doctor-patient approach. The hospital offers a wide range of treatment procedures and has a dedicated doctor-patient support system in place. The hospital is open to any patient and the staff is available 24/7 to help the patients. It has a team of supportive and experienced professionals who work together to provide you with the best treatment available. If a picture is worth a thousand words, Axess Hospital has been a living picture book for the city of Madurai. Over the years there have been innumerable people who have been saved from the clutches of death due to the hospital’s excellent work. This hospital has given hope to thousands of people and is a one-stop solution for the people of Madurai and its surroundings.</p>
 
 
                     </div>
-                    <div className='text-center mb-4 mt-3  heading7'>
-                        <button className='btn btn-primary px-4 py-2'> Read more</button>
-                    </div>
+
                 </div>
 
             </section>
 
-            <section className='container mt-5 p-5' style={{
+            <section style={{
                 backgroundColor: "transparent",
                 backgroundImage: "linear-gradient(180deg, #FFF0EA 0%, #FFF4EF 100%)"
 
             }}>
-                <div className="carding row gx-3 align-items-stretch mt-5">
-                    <div className="col-md-3">
-                        <div class="card-effect">
-                            <div class="card-content-effect text-center">
-                                <img src="https://preethihospitals.com/wp-content/uploads/2023/02/examination.png" alt="" style={{ width: "80px", height: "80px" }} />
-                                <h4 className="heading6 m-4 text-center">
-                                    Medical Health & Checkup
-                                </h4>
+                <div className='container mt-5 p-5' >
+                    <div className="carding row gx-3 align-items-stretch my-5 bg-3">
+                        <div className="col-md-3">
+                            <div class="card-effect">
+                                <div class="card-content-effect text-center">
+                                    <img src="https://preethihospitals.com/wp-content/uploads/2023/02/examination.png" alt="" style={{ width: "80px", height: "80px" }} />
+                                    <h4 className="heading6 m-4 text-center">
+                                        Medical Health & Checkup
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div class="card-effect">
+                                <div class="card-content-effect text-center">
+                                    <img src="https://preethihospitals.com/wp-content/uploads/2023/04/yoga-pose.png" alt="" style={{ width: "80px", height: "80px" }} />
+                                    <h4 className="heading6 m-4 text-center">
+                                        Nutrition and
+                                        Dietetics
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div class="card-effect">
+                                <div class="card-content-effect text-center">
+                                    <img src="https://preethihospitals.com/wp-content/uploads/2023/02/nursing-home-1.png" alt="" style={{ width: "80px", height: "80px" }} />
+                                    <h4 className="heading6 m-4 text-center">
+                                        60+ Elder
+                                        Care
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div class="card-effect">
+                                <div class="card-content-effect text-center">
+                                    <img src="https://preethihospitals.com/wp-content/uploads/2023/04/yoga-pose.png" alt="" style={{ width: "80px", height: "80px" }} />
+                                    <h4 className="heading6 m-4 text-center">
+                                        Fitness and
+                                        Wellness
+                                    </h4>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
-                        <div class="card-effect">
-                            <div class="card-content-effect text-center">
-                                <img src="https://preethihospitals.com/wp-content/uploads/2023/04/yoga-pose.png" alt="" style={{ width: "80px", height: "80px" }} />
-                                <h4 className="heading6 m-4 text-center">
-                                    Nutrition and
-                                    Dietetics
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3">
-                        <div class="card-effect">
-                            <div class="card-content-effect text-center">
-                                <img src="https://preethihospitals.com/wp-content/uploads/2023/02/nursing-home-1.png" alt="" style={{ width: "80px", height: "80px" }} />
-                                <h4 className="heading6 m-4 text-center">
-                                    60+ Elder
-                                    Care
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3">
-                        <div class="card-effect">
-                            <div class="card-content-effect text-center">
-                                <img src="https://preethihospitals.com/wp-content/uploads/2023/04/yoga-pose.png" alt="" style={{ width: "80px", height: "80px" }} />
-                                <h4 className="heading6 m-4 text-center">
-                                    Fitness and
-                                    Wellness
-                                </h4>
+
+                </div>
+            </section>
+            <section className="bg-white mt-5">
+                <div className="container">
+                    <div >
+                        <div className="row justify-content-center p-5">
+                            <div className="col-md-10">
+                                <div className="row biomedicalbg rounded-4">
+                                    <div className="col-md-8 ">
+                                        <h3 className='text-center mb-3 heading7 fs-2 ' style={{ color: "#F1A902" }}>BIO MEDICAL MANAGMENT</h3>
+
+                                        <p className="px-4 heading6">
+                                            To minimise health hazards to patients and staff, our
+                                            trained professionals handle various operational procedures
+                                            for managing biomedical wastes that reduce serious
+                                            implications.
+                                        </p>
+                                    </div>
+                                    <div className="col-md-4">
+                                        <div className="biomedical w-75"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </section>
+
             <section style={{
-                backgroundColor: "#e8f6ff",
+                backgroundColor: "#007C9D",
                 // backgroundImage: "linear-gradient(180deg, #FFF0EA 0%, #FFF4EF 100%)"
             }}>
 
                 <div>
                     <div>
                         <div className='text-center mb-5 px-3 '>
-                            <h3 className='heading7 text-center mt-4 pt-4 fs-3 ' style={{ color: "#fd562a" }}>OUR DEPARTMENTS</h3>
+                            <h3 className='heading7 text-center mt-4 pt-4 fs-3 ' style={{ color: "#F1A902" }}>OUR DEPARTMENTS</h3>
                             <h2 className='mt-4 heading5 fs-5'>Higher Standards For All Your Healthcare</h2>
 
                         </div>
@@ -275,7 +315,7 @@ export default function Nav() {
                                                         <div class="category-list">
                                                             <h4 className='text-center pt-2'>Nephrology
                                                             </h4>
-                                                            <p className='text-center pt-3'>Comprehensive care for acute or chronic kidney diseases with advanced diagnostic procedures, preoperative evaluation, dialysis support and renal transplant</p>
+                                                            <p className='text-center pt-3'>Comprehensive care for acute or chronic kidney diseases with advanced diagnostic procedures,  dialysis support and renal transplant</p>
                                                         </div>
 
                                                     </div>
@@ -295,17 +335,17 @@ export default function Nav() {
 
 
             <section className='mt-5'>
-                <h3 className='text-center mb-3 heading7 fs-2 ' style={{ color: "#fd562a" }}>Why Choose Us?</h3>
+                <h3 className='text-center mb-3 heading7 fs-2 ' style={{ color: "#F1A902" }}>Why Choose Us?</h3>
                 <h2 className='mt-3 heading5 fs-5 text-center'>
                     Dreaming to be a medical professional !!</h2>
                 <div className="container">
                     <div className="row p-5">
                         <div className="col-md-5">
-                            <img src="https://img.freepik.com/free-photo/3d-rendering-hospital-building_23-2150896634.jpg?size=626&ext=jpg&uid=R124346864&ga=GA1.1.705659462.1705845875&semt=sph" alt="" />
+                            <img src="https://img.freepik.com/free-photo/3d-rendering-hospital-building_23-2150896634.jpg?size=626&ext=jpg&uid=R124346864&ga=GA1.1.705659462.1705845875&semt=sph" alt="" className='img-fluid ' />
                         </div>
                         <div className="col-md-7">
                             <p className='heading6'>Axess Institute of allied health sciences offers the best opportunity to be healthcare professionals to support medical doctors and nurses, such as medical technologists, physical therapists, occupational therapists, and medical assistants.</p>
-                            <h4 className='heading7 mb-3' style={{ color: "#fd562a" }}>Highlights</h4>
+                            <h4 className='heading7 mb-3' style={{ color: "#F1A902" }}>Highlights</h4>
                             <ul className='lists heading6'>
                                 <li>☑️ Best-in-class training sessions</li>
                                 <li>☑️ Experienced teachers and medical professionals</li>
@@ -313,17 +353,127 @@ export default function Nav() {
                                 <li>☑️ Secure learning environment</li>
                                 <li>☑️ World-class Infrastructure
                                 </li>
-                                <button className='btn btn-primary px-4 py-2 m-5'>Apply Now</button>
+
                             </ul>
                         </div>
                     </div>
 
                 </div>
             </section>
-
-            <section className='nav-banner testimonal' id="testimonial">
+            <section className="container">
                 <div>
-                    <h3 className='heading7 text-center mt-4 pt-4 fs-3 ' style={{ color: "#fd562a" }}>TESTIMONIAL</h3>
+                    <div>
+                        <h3 className='text-center mb-3 heading7 fs-2 ' style={{ color: "#F1A902" }}>CENTER OF EXCELLENCE</h3>
+
+                        <p className="pt-2 fs-5 text-center heading6">
+                            Combining the best specialists and equipment to provide you
+                            nothing short of the best in healthcare.
+                        </p>
+                    </div>
+                    <div className="row row-cols-1 row-cols-lg-3  g-2 g-lg-4 mt-4">
+                        <div className="col">
+                            <div className="card border-0 p-3  rounded-0 crd-bg">
+                                <div className="d-flex">
+                                    <img
+                                        src="https://cdn.apollohospitals.com/campaign/chennai/images/icons/cardiology-ic.webp"
+                                        alt=""
+                                        className="img-fluid rounded-3"
+                                        width="56"
+                                    />
+                                    <div className="fw-bold  ms-sm-3 ms-2 py-3 trip_points text-dark">
+                                        <p className='heading6'>Cardiology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card border-0 p-3  rounded-0 ortho-bg">
+                                <div className="d-flex">
+                                    <img
+                                        src="https://cdn.apollohospitals.com/campaign/chennai/images/icons/ortho-ic.webp"
+                                        alt=""
+                                        className="img-fluid rounded-3"
+                                        width="56"
+                                    />
+                                    <div className="fw-bold  ms-sm-3 ms-2 py-3 trip_points text-dark">
+                                        <p className='heading6'>Orthopedics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card border-0 p-3  rounded-0 onco-bg">
+                                <div className="d-flex">
+                                    <img
+                                        src="https://cdn.apollohospitals.com/campaign/chennai/images/onco-ic.webp"
+                                        alt=""
+                                        className="img-fluid rounded-3"
+                                        width="56"
+                                    />
+
+                                    <div className="fw-bold  ms-sm-3 ms-2 py-3 trip_points text-dark">
+                                        <p className='heading6'>Oncology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card border-0 p-3  rounded-0 neuro-bg">
+                                <div className="d-flex">
+                                    <img
+                                        src="https://cdn.apollohospitals.com/campaign/chennai/images/icons/neurology-icon.webp"
+                                        alt=""
+                                        className="img-fluid rounded-3"
+                                        width="56"
+                                    />
+
+                                    <div className="fw-bold  ms-sm-3 ms-2 py-3 trip_points text-dark">
+                                        <p className='heading6'>Nephrology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card border-0 p-3  rounded-0 gastro-bg">
+                                <div className="d-flex">
+                                    <img
+                                        src="https://cdn.apollohospitals.com/campaign/chennai/images/icons/gastroenterology-icon.webp"
+                                        alt=""
+                                        className="img-fluid rounded-3"
+                                        width="56"
+                                    />
+
+                                    <div className="fw-bold  ms-sm-3 ms-2 py-3 trip_points text-dark">
+                                        <p className='heading6'>Gastroenterology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card border-0 p-3  rounded-0 urology-bg">
+                                <div className="d-flex">
+                                    <img
+                                        src="https://cdn.apollohospitals.com/campaign/chennai/images/icons/urology-icon.webp"
+                                        alt=""
+                                        className="img-fluid rounded-3"
+                                        width="56"
+                                    />
+                                    <div className="fw-bold  ms-sm-3 ms-2 py-3 trip_points text-dark">
+                                        <p className='heading6'>
+                                            <span class="d-none d-sm-inline">Nephrology &amp;</span>{" "}
+                                            Urology{" "}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='nav-banner testimonal mt-5' id="testimonial">
+                <div>
+                    <h3 className='heading7 text-center mt-4 pt-4 fs-3 ' style={{ color: "#F1A902" }}>TESTIMONIAL</h3>
                     <h2 className='mt-3 heading5 fs-5 text-center'>What do our patients have to say about us?</h2>                    <div
                         className="elementor-widget-container"
                         style={{ margin: "2rem" }}>
