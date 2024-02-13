@@ -110,9 +110,9 @@
   padding: 20px;
 }
 
-.card-content-effect h4 {
+/* .card-content-effect h4 {
   padding: 20px;
-}
+} */
 
 .carding {
   display: flex;
@@ -141,7 +141,6 @@
 } */
 .custom-card {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
   transition: 0.3s ease;
   margin-bottom: 20px;
 }

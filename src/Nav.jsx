@@ -1,5 +1,6 @@
 import React from 'react';
-import video1 from '../src/images/video1.mp4'
+// 
+
 import Profiledub from './images/dub-img.png'
 
 export default function Nav() {
@@ -86,7 +87,7 @@ export default function Nav() {
                 <div className="row d-flex align-items-center justify-content-evenly">
                     <div className="col-md-5">
                         <div className='text-center'>
-                            <video src={video1} autoPlay loop muted className='w-100 img3'></video>
+                            <video src=" https://youtu.be/Ba3RvJew71I "autoPlay loop muted className='w-100 img3'></video>
                         </div>
                     </div>
                     <div className="col-md-7    ">
@@ -106,7 +107,7 @@ export default function Nav() {
 
             }}>
                 <div className='container mt-5 p-5' >
-                    <div className="carding row gx-3 align-items-stretch my-5 bg-3">
+                    <div className="carding row gx-3 align-items-stretch my-5 bg-3 ">
                         <div className="col-md-3">
                             <div class="card-effect">
                                 <div class="card-content-effect text-center">
@@ -186,7 +187,7 @@ export default function Nav() {
             }}>
 
                 <div>
-                    <div>
+                    <div className=''>
                         <div className='text-center mb-5 px-3 '>
                             <h3 className='heading7 text-center mt-4 pt-4 fs-3 ' style={{ color: "#F1A902" }}>OUR DEPARTMENTS</h3>
                             <h2 className='mt-4 heading5 fs-5'>Higher Standards For All Your Healthcare</h2>
@@ -195,9 +196,9 @@ export default function Nav() {
                         <div className='container'>
                             <div className='row gy-4'>
                                 <div className='col-md-4 '>
-                                    <a href="/idfc" className='text-decoration-none'>
-                                        <div class="card custom-card p-5" data-aos="fade-right" data-aos-duration="500" >
-                                            <div className='text-center'>
+                                    <a href="/" className='text-decoration-none'>
+                                        <div class="card custom-card " data-aos="fade-right" data-aos-duration="500" >
+                                            <div className='text-center pt-3'>
                                                 <img src="https://preethihospitals.com/wp-content/uploads/2022/11/Emergency-Trauma-Care.png"
                                                     className="card-img-top zoom-effect img-fluid w-25"
                                                     alt="..." />
@@ -223,8 +224,8 @@ export default function Nav() {
                                     </a>
                                 </div>
                                 <div className='col-md-4 '>
-                                    <a href="/cardinside" className='text-decoration-none'>
-                                        <div class="card custom-card p-5" data-aos="fade-right" data-aos-duration="500" >
+                                    <a href="/" className='text-decoration-none'>
+                                        <div class="card custom-card pt-3 " data-aos="fade-right" data-aos-duration="500" >
 
                                             <div className='text-center'>
                                                 <img src="https://preethihospitals.com/wp-content/uploads/2022/11/Orthopaedics.png"
@@ -249,8 +250,8 @@ export default function Nav() {
                                     </a>
                                 </div>
                                 <div className='col-md-4'>
-                                    <a href="/trading" className='text-decoration-none'>
-                                        <div class="card custom-card p-5" data-aos="fade-right" data-aos-duration="500" >
+                                    <a href="/" className='text-decoration-none'>
+                                        <div class="card custom-card pt-3 " data-aos="fade-right" data-aos-duration="500" >
                                             <div className='text-center'>
                                                 <img src="https://preethihospitals.com/wp-content/uploads/2022/11/Obstetrics-Gynecology-and-Fertility-Care-IVF.png"
                                                     className="card-img-top zoom-effect img-fluid w-25"
@@ -263,7 +264,7 @@ export default function Nav() {
                                                         <div class="category-list">
                                                             <h4 className='text-center pt-2'> Gynaecology
                                                             </h4>
-                                                            <p className='text-center pt-3'>The best treatment for women's health, fertility care and infertility and high-risk deliveries with ease.</p>
+                                                            <p className='text-center pt-3'>The best treatment for women's health, fertility care and infertility and in their high-risk of deliveries with ease.</p>
                                                         </div>
 
                                                     </div>
@@ -274,8 +275,8 @@ export default function Nav() {
                                     </a>
                                 </div>
                                 <div className='col-md-4'>
-                                    <a href="/smart" className='text-decoration-none'>
-                                        <div class="card custom-card p-5 " data-aos="fade-left" data-aos-duration="500">
+                                    <a href="/" className='text-decoration-none'>
+                                        <div class="card custom-card pt-3 " data-aos="fade-left" data-aos-duration="500">
 
                                             <div className='text-center'>
                                                 <img src="https://preethihospitals.com/wp-content/uploads/2022/11/Cardiology.png"
@@ -289,7 +290,7 @@ export default function Nav() {
                                                         <div class="category-list">
                                                             <h4 className='text-center pt-2'>Cardiology
                                                             </h4>
-                                                            <p className='text-center pt-3'>Prevention and treatment of cardiac diseases for the achievement of better health outcomes and improved quality of life.</p>
+                                                            <p className='text-center pt-3'>Prevention and treatment of cardiac diseases for the achievement of better health outcomes quality of life.</p>
                                                         </div>
 
                                                     </div>
@@ -300,8 +301,8 @@ export default function Nav() {
                                     </a>
                                 </div>
                                 <div className='col-md-4'>
-                                    <a href="/transaction" className='text-decoration-none'>
-                                        <div class="card custom-card p-5 " data-aos="fade-left" data-aos-duration="500">
+                                    <a href="/" className='text-decoration-none'>
+                                        <div class="card custom-card pt-3 " data-aos="fade-left" data-aos-duration="500">
 
                                             <div className='text-center'>
                                                 <img src="https://preethihospitals.com/wp-content/uploads/2022/11/Nephrology-Renal-Transplant.png"
@@ -315,7 +316,7 @@ export default function Nav() {
                                                         <div class="category-list">
                                                             <h4 className='text-center pt-2'>Nephrology
                                                             </h4>
-                                                            <p className='text-center pt-3'>Comprehensive care for acute or chronic kidney diseases with advanced diagnostic procedures,  dialysis support and renal transplant</p>
+                                                            <p className='text-center pt-3'>Comprehensive care for acute or chronic kidney diseases with advanced diagnostic procedures,  dialysis support  transplant</p>
                                                         </div>
 
                                                     </div>
@@ -334,7 +335,7 @@ export default function Nav() {
             </section>
 
 
-            <section className='mt-5'>
+            <section className='mt-5 testimonal'>
                 <h3 className='text-center mb-3 heading7 fs-2 ' style={{ color: "#F1A902" }}>Why Choose Us?</h3>
                 <h2 className='mt-3 heading5 fs-5 text-center'>
                     Dreaming to be a medical professional !!</h2>
@@ -351,7 +352,15 @@ export default function Nav() {
                                 <li>☑️ Experienced teachers and medical professionals</li>
                                 <li>☑️ Advanced practical laboratory</li>
                                 <li>☑️ Secure learning environment</li>
+                                <li>☑️ Specialised Service</li>
+                                <li>☑️ Comprehensive Patient Care</li>
                                 <li>☑️ World-class Infrastructure
+                                </li>
+                                <li>☑️ MRI Scan Facilities
+                                </li>
+                                <li>☑️ 24/7 Advanced Care
+                                </li>
+                                <li>☑️ 2100 Hospital Beds
                                 </li>
 
                             </ul>
@@ -1073,7 +1082,19 @@ export default function Nav() {
 
             </section>
 
-
+  {/* Need a Doctor  */}
+  <section className="Doctor">
+        <div className="text-center text-light docdiv ">
+          <div className="docpara">
+            <p className="fs-3">Need a Doctor for Check-up?</p>
+            <h1>Just Make An Appointment & You're Done!</h1>
+            <button className="docbutton">Book An Appointment</button>
+            <p className="text-center text-light mt-5 pt-2">
+             <span className="text-danger"> © Copyright 2023.</span> YYYY Hospitals Group. All Rights Reserved,
+            </p>
+          </div>
+        </div>
+      </section>
 
 
         </div >
