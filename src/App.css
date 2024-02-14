@@ -124,12 +124,11 @@
 }
 
 .card-effect:hover {
-  background: #82CAFF;
-  color: black;
+  background:rgba(250, 58, 96, 0.979);
+  color: white;
   border-color: white;
   transition: all 0.35s ease;
   cursor: default;
-
 }
 
 /* .elementor {
