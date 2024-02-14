@@ -159,8 +159,8 @@ export default function Nav() {
             </section>
 
             <section>
-                <div className='pt-5'>
-                    <img src={hospitalpart} alt="" />
+                <div className='pt-5 '>
+                    <img src={hospitalpart} alt="" className='img-fluid'/>
                 </div>
             </section>
 
