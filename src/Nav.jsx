@@ -26,7 +26,7 @@ export default function Nav() {
                 <div className='text-center py-4 my-4'>
                     <div className='row'>
                         <div className="col-md-7">
-                            <h2 class="sub-title pt-sm-0 pt-3 mb-4 heading7 ">The Axess World of Care</h2>
+                            <h2 class="sub-title pt-sm-0 pt-3 mb-4 heading7 ">The World of Care</h2>
                             <h4 className='hero-title heading7 mb-4'>Consult Our Trusted Surgeons,Book an Appointment,
 
                                 <p>10 Years of Advanced HealthCare</p></h4>
@@ -63,7 +63,7 @@ export default function Nav() {
                         <h1 className='heading7 text-center mb-3 p-2 fs-3 ' style={{ color: "#F1A902" }}
                             data-aos="fade-left" data-aos-duration="500" > The Best Multi-speciality Hospital in  Madurai</h1>
                         <p className='heading6' data-aos="fade-left" data-aos-easing="ease-out-cubic"
-                            data-aos-duration="1400">Axess in Madurai is one of the most prominent hospitals in Madurai for its innovative treatments and doctor-patient approach. The hospital offers a wide range of treatment procedures and has a dedicated doctor-patient support system in place. The hospital is open to any patient and the staff is available 24/7 to help the patients. It has a team of supportive and experienced professionals who work together to provide you with the best treatment available. If a picture is worth a thousand words, Axess Hospital has been a living picture book for the city of Madurai. Over the years there have been innumerable people who have been saved from the clutches of death due to the hospital’s excellent work. This hospital has given hope to thousands of people and is a one-stop solution for the people of Madurai and its surroundings.</p>
+                            data-aos-duration="1400">Company in Madurai is one of the most prominent hospitals in Madurai for its innovative treatments and doctor-patient approach. The hospital offers a wide range of treatment procedures and has a dedicated doctor-patient support system in place. The hospital is open to any patient and the staff is available 24/7 to help the patients. It has a team of supportive and experienced professionals who work together to provide you with the best treatment available. If a picture is worth a thousand words, Axess Hospital has been a living picture book for the city of Madurai. Over the years there have been innumerable people who have been saved from the clutches of death due to the hospital’s excellent work. This hospital has given hope to thousands of people and is a one-stop solution for the people of Madurai and its surroundings.</p>
 
 
                     </div>
