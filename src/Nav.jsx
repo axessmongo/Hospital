@@ -329,7 +329,7 @@ export default function Nav() {
                             <img src={hospital} alt="" className='img-fluid ' />
                         </div>
                         <div className="col-md-7">
-                            <p className='heading6' data-aos="flip-down" data-aos-duration="800" >Axess Institute of allied health sciences offers the best opportunity to be healthcare professionals to support medical doctors and nurses, such as medical technologists, physical therapists, occupational therapists, and medical assistants.</p>
+                            <p className='heading6' data-aos="flip-down" data-aos-duration="800" > Institute of allied health sciences offers the best opportunity to be healthcare professionals to support medical doctors and nurses, such as medical technologists, physical therapists, occupational therapists, and medical assistants.</p>
                             <h4 className='heading7 mb-3' style={{ color: "#F1A902" }}>Highlights</h4>
                             <ul className='lists heading6'>
                                 <li data-aos="fade-up" data-aos-duration="200" >☑️ Best-in-class training sessions</li>
